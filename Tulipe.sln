@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tulipe", "Tulipe\Tulipe.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tulipe.Test", "Tulipe.Test\Tulipe.Test.csproj", "{C361DE1B-5CD3-4E51-8ABA-87336D5F6C01}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tulipe.WXService", "Tulipe.WXService\Tulipe.WXService.csproj", "{947682ED-4A3A-4944-89F3-CC8930633D90}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C361DE1B-5CD3-4E51-8ABA-87336D5F6C01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C361DE1B-5CD3-4E51-8ABA-87336D5F6C01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C361DE1B-5CD3-4E51-8ABA-87336D5F6C01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{947682ED-4A3A-4944-89F3-CC8930633D90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{947682ED-4A3A-4944-89F3-CC8930633D90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{947682ED-4A3A-4944-89F3-CC8930633D90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{947682ED-4A3A-4944-89F3-CC8930633D90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
