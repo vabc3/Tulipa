@@ -32,7 +32,7 @@ namespace Tulipe.WXService
         public CustomerEntity()
         {
             this.PartitionKey = "0";
-            this.RowKey = DateTimeOffset.UtcNow.UtcTicks.ToString();
+            this.RowKey = DateTime.UtcNow.Ticks.ToString();
             this.Time = DateTime.UtcNow;
         }
 
