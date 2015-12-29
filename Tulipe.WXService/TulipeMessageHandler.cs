@@ -19,7 +19,7 @@ namespace Tulipe.WXService
         private PostModel postModel;
         private static ITulipeService service = new TulipeService();
         internal static IList<string> logger = new List<string>();
-
+        private AzLog azLog = new AzLog();
 
         public TulipeMessageHandler(Stream inputStream, PostModel postModel, int maxRecordCount = 0)
            : base(inputStream, postModel, maxRecordCount)
@@ -47,14 +47,16 @@ namespace Tulipe.WXService
 
         private string handle(string text, string user)
         {
-            logger.Add(Util.GetNickName(user) + ":" + text);
+            var name = Util.GetNickName(user);
+            logger.Add(name + ":" + text);
+            azLog.Log(name, text);
 
             string result = "说点啥？输入h 查看帮助";
             var data = text.Split(' ');
             switch (data[0])
             {
                 case "V":
-                    result = "version 0.2.1";
+                    result = "version 0.2.2";
                     break;
                 case "h":
                     result = "创建游戏：c 坏人数 好人数 坏人词 好人词\n加入游戏：j 游戏ID\n查看游戏 ：v 游戏ID";
