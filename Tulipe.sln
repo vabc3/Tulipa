@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tulipe", "Tulipe\Tulipe.csproj", "{DD9E039B-C595-40DF-83BA-331EB0665660}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tulipe.Test", "Tulipe.Test\Tulipe.Test.csproj", "{C361DE1B-5CD3-4E51-8ABA-87336D5F6C01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tulipe.WXService", "Tulipe.WXService\Tulipe.WXService.csproj", "{947682ED-4A3A-4944-89F3-CC8930633D90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD9E039B-C595-40DF-83BA-331EB0665660}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD9E039B-C595-40DF-83BA-331EB0665660}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD9E039B-C595-40DF-83BA-331EB0665660}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD9E039B-C595-40DF-83BA-331EB0665660}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C361DE1B-5CD3-4E51-8ABA-87336D5F6C01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C361DE1B-5CD3-4E51-8ABA-87336D5F6C01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C361DE1B-5CD3-4E51-8ABA-87336D5F6C01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C361DE1B-5CD3-4E51-8ABA-87336D5F6C01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{947682ED-4A3A-4944-89F3-CC8930633D90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{947682ED-4A3A-4944-89F3-CC8930633D90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{947682ED-4A3A-4944-89F3-CC8930633D90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{947682ED-4A3A-4944-89F3-CC8930633D90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
